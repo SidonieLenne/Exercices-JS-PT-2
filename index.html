@@ -8,7 +8,11 @@
 </head>
 <body>
     <form method="post" action="#">
-        <input type="text" placeholder="Tu vas galérer à écrire :)" id="field" onkeypress="showMe()"/>
+        <input type="text" placeholder="Tu vas galérer à écrire :)" id="field" onkeyup="showMe()"/>
+        <!--Il existe 3 évènements de clavier: 
+            onKeyPress (quand on APPUIE puis RELÂCHE la touche), 
+            onKeyDown (quand on APPUIE sur la touche), 
+            onKeyUp (quand on RELACHE la touche)-->
     </form>
 <script src="assets/js/script.js">
 </script>
