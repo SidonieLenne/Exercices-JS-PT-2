@@ -2,13 +2,85 @@
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="utf-8"/>
-    <title>Exercice 3 PT 2 JS</title>
+    <title>Exercice 4 PT 2 JS</title>
     <meta name="description" content="#"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <img src="assets/images/flocon.jpg" onclick="this.height=600">
-<script src="assets/js/script.js">
-</script>
+    <!--......Entête......-->
+    <header>
+        <h1>Voyage & Co</h1>
+    </header>
+    <!--......Barre de navigation......-->
+    <ul id="listNav">
+        <li><a href="#" id="home">Accueil</a></li>
+        <li><a href="#" id="destination">Destinations</a></li>
+        <li><a href="#" id="booking">Réservations</a></li>
+        <li><a href="#" id="contact">Contact</a></li>
+        <form action="#" method="post">
+            <li class="searchBar"><input class="searchBar" type="search" placeholder="Rechercher"/></li>
+            <li class="searchButton"><input class="searchButton" type="button" value="Rechercher"/></li>
+        </form>     
+        <li class="navBarIcon"><i class="fas fa-bars" id="navBarIcon"></i></li>
+    </ul>
+    <!--......Texte de présentation......-->
+    <div id="openingParagraph">
+        Bienvenue sur la page d'accueil de l'agence Voyage&Co,
+        la meilleure agence de voyage du MONDE. ENTIER.
+        Voyage&Co est vraiment une superbe agence de voyage.
+        Contre vents et marées elle vous amènera là où vous le désirez.
+        Regardez comme il à l'air content ce chameau! Il n'attend que vous!
+        Alors venez. Svp.
+    </div>
+    <!--......Compte rendus de voyage......-->
+    <div id="blockquoteDiv">
+        <!--Boîte gauche, Italie-->
+        <blockquote class="trip">
+            <h2>"Mon voyage à Venise...</h2>
+            <img src="assets/images/italia.jpg" title="Venise" alt="Photo des canaux de Venise"/>
+            <p>... A été un réel enchantement. <br/>
+                <span class="interview">
+                    Les bâtiments sont tous pleins d'histoire, et l'ambiance qui y règne est incomparable. 
+                    Les gondoliers sont tous très souriants, on voit la joie qu'ils éprouvent à manier les merveilles, 
+                    les petits bijoux parfaits que sont les gondoles. Merci Voyage&Co pour m'avoir permis de vivre ce rêve éveillé"<br/>
+                </span>
+                -Mauricette, 48 ans, fan de gondoles.
+            </p>
+        </blockquote>
+        <!--Boîte centre, Inde-->
+        <blockquote class="trip">
+            <h2>"Mon escapade en Inde...</h2>
+            <img src="assets/images/india.jpg" title="Taj Mahal" alt="Photo du Taj Mahal"/>
+            <p>...M'a changé la vie. <br/>
+                <span class="interview">
+                    Il m'a permis de me ressourcer sans aucune source d'anxiété grâce au fabuleux travail de Voyage&Co.
+                    Entouré de tant de beauté, d'une culture différente et très intéréssante, j'ai vécu un rêve dont je 
+                    me demande encore s'il est réel. Heureusement que j'ai les photos pour preuve!" <br/>
+                </span>
+                -Antonio, 35 ans, hipster.
+            </p>
+        </blockquote>
+        <!--Boîte droite, Japon-->
+        <blockquote class="trip">
+            <h2>"Ma virée tokyoïte...</h2>
+            <img src="assets/images/japan.jpg" title="Tokyo by night" alt="Photo de Tokyo de nuit"/>
+            <p>...Fut courte, mais intense! <br/>
+                <span class="interview">
+                    Quatre jours à arpenter les rues de la capitale du pays du soleil levant
+                    est tout ce dont j'avais besoin. Cette ville si cosmopolitaine, qui possède tant de visages, me fascine.
+                    Un petit coup de fil à Voyage&Co et le lendemain j'étais dans l'avion!
+                    Leur réactivité m'épatera toujours. Arigato Voyage&Co."<br/>
+                </span>
+                -Jennifer, 20 ans, influenceuse auto-proclamée.
+            </p>
+        </blockquote>
+    </div>
+    <footer>
+        <div id="footerParagraph">
+            tchuss
+        </div>
+    </footer>
+    <script src="assets/js/script.js">
+    </script>
 </body>
 </html>
